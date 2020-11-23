@@ -1,0 +1,35 @@
+{
+    "name": "shopper/authorizenet",
+    "description": "",
+    "require": {
+        "php": "~7.3.0",
+        "magento/module-sales": "null",
+        "magento/module-payment": "null",
+        "magento/module-checkout": "null",
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Shopper\\Authorizenet\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Shopper/Authorizenet"
+            ]
+        ]
+    }
+}
